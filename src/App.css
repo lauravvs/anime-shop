@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+body {
+  background-color: black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.shopping {
+  color: white;
+}
+img {
+  width: 50px;
+}
+h3 {
+  font-size: 4rem;
+  color: rgb(244, 226, 68);
+}
+button {
+  font-size: 1.2rem;
+  background-color: rgb(118, 26, 141);
+  color: white;
+}
+h1 {
+  color: white;
 }
