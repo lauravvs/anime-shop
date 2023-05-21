@@ -1,8 +1,8 @@
-import cart from "./assets/cart.webp";
+import cart from "./assets/cart.png";
 const CartWidget = () => {
   return (
     <div className="shopping">
-      <img src={cart} />0
+      <img className="cart_img" src={cart} />0
     </div>
   );
 };

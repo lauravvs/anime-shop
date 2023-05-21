@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 body {
-  background-color: rgb(172, 138, 188);
+  background-color: rgb(187, 178, 153);
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -16,7 +16,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ebe6d4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,18 +41,29 @@ body {
 .shopping {
   color: white;
 }
-img {
+.cart_img {
   width: 50px;
+}
+article {
+  background-color: #8f8670;
 }
 h3 {
   font-size: 4rem;
-  color: rgb(244, 226, 68);
+  color: rgb(111, 87, 76);
+  font-family: fantasy;
 }
 button {
   font-size: 1.2rem;
-  background-color: rgb(118, 26, 141);
+  background-color: rgb(128, 118, 102);
   color: white;
 }
 h1 {
+  color: white;
+}
+img {
+  width: 300px;
+  border-radius: 20%;
+}
+p {
   color: white;
 }
