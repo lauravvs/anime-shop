@@ -48,6 +48,46 @@ const products = [
     img: "https://www.m.derivefigurine.com/93697/kagome-higurashi-inuyasha-figure-pop-up-parade.jpg",
     description: "figure ",
   },
+  {
+    id: "7",
+    name: "Inuyasha",
+    price: 40000,
+    stock: 400,
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/InuYasha1.jpg/220px-InuYasha1.jpg",
+    description: "Manga",
+  },
+  {
+    id: "8",
+    name: "Yuyu Hakusho",
+    price: 50000,
+    stock: 400,
+    img: "https://m.media-amazon.com/images/I/81-vkNy0H8L._AC_UF1000,1000_QL80_.jpg",
+    description: "Manga ",
+  },
+  {
+    id: "9",
+    name: "Death Note",
+    price: 40000,
+    stock: 400,
+    img: "https://images.cdn1.buscalibre.com/fit-in/360x360/7b/e0/7be0824af062ba372364545078562afd.jpg",
+    description: "Manga",
+  },
+  {
+    id: "10",
+    name: "Chainsawman",
+    price: 60000,
+    stock: 400,
+    img: "https://http2.mlstatic.com/D_NQ_NP_639316-MCO49788363006_042022-O.jpg",
+    description: "figure ",
+  },
+  {
+    id: "11",
+    name: "Given",
+    price: 50000,
+    stock: 400,
+    img: "https://upload.wikimedia.org/wikipedia/en/7/7f/Given_Vol_1.png",
+    description: "Manga",
+  },
 ];
 
 export const getProducts = () => {
